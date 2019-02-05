@@ -158,17 +158,25 @@ img {
   padding-top: 8rem;
 }
 /*Background*/
+body {
+  background-color: #E5DABD;
+}
 /*Navigation Conainer*/
 .nav {
   display: flex;
   z-index: 2;
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 7rem;
   justify-content: space-between;
+  background-color: #AE4110;
+  box-shadow: 0 0 12px 0 #1A1409;
+  transition: 0.5s;
 }
 .nav .logo-txt {
-  margin: 1rem;
+  margin: 1.3rem;
+  color: #E5DABD;
+  text-shadow: 4px 4px #1A1409;
 }
 .nav .btns {
   margin: 1rem;

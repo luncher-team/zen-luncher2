@@ -1,16 +1,23 @@
 /*Background*/
-
+body {
+  background-color: @c-txt;
+}
 /*Navigation Conainer*/
 .nav {
   display: flex;
   z-index: 2;
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 7.0rem;
   justify-content: space-between;
+  background-color: @n-back;
+  box-shadow: 0 0 12px 0 @c-bord;
+  transition: 0.5s;
 
   .logo-txt {
-    margin: 1rem;
+    margin: 1.3rem;
+    color: @c-txt;
+    text-shadow: 4px 4px @c-bord;
   }
 
   .btns {
