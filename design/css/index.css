@@ -160,6 +160,8 @@ img {
 /*Navigation Conainer*/
 .nav {
   display: flex;
+  z-index: 2;
+  position: fixed;
   width: 100%;
   height: auto;
   justify-content: space-between;
