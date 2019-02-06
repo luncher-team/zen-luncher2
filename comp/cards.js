@@ -2,7 +2,7 @@
 const schools = [{
   "id": 1,
   "imgSrc": "http://dummyimage.com/400x220.bmp/5fa2dd/ffffff",
-  "name": "Harbin University of Civil Engineering & Architecture",
+  "name": "Harbin University of Engineering ",
   "motto": "drive seamless functionalities",
   "addr1": "0 Superior Parkway",
   "addr2": "New Jersey",
@@ -26,7 +26,7 @@ const schools = [{
 }, {
   "id": 4,
   "imgSrc": "http://dummyimage.com/400x206.png/ff4444/ffffff",
-  "name": "Chubu Gakuin University & Chubu Women's College",
+  "name": "Chubu Women's College",
   "motto": "scale global users",
   "addr1": "47 Fuller Road",
   "addr2": "Ohio",
@@ -50,7 +50,7 @@ const schools = [{
 }, {
   "id": 7,
   "imgSrc": "http://dummyimage.com/400x203.jpg/ff4444/ffffff",
-  "name": "Academy of Performing Arts, Film and TV Fakulty",
+  "name": "Academy of Performing Arts",
   "motto": "optimize real-time platforms",
   "addr1": "11 Lotheville Terrace",
   "addr2": "Florida",
@@ -66,7 +66,7 @@ const schools = [{
 }, {
   "id": 9,
   "imgSrc": "http://dummyimage.com/400x223.bmp/cc0000/ffffff",
-  "name": "First Global University to teaching Jainism",
+  "name": "First Global University",
   "motto": "morph e-business paradigms",
   "addr1": "9110 Pankratz Street",
   "addr2": "Tennessee",
@@ -74,7 +74,7 @@ const schools = [{
 }, {
   "id": 10,
   "imgSrc": "http://dummyimage.com/400x230.bmp/dddddd/000000",
-  "name": "Pak-AIMS (American Institute of Management Sciences)",
+  "name": "American Institute of Management)",
   "motto": "benchmark 24/365 ROI",
   "addr1": "65 Northland Drive",
   "addr2": "California",
@@ -82,7 +82,7 @@ const schools = [{
 }, {
   "id": 11,
   "imgSrc": "http://dummyimage.com/400x214.png/dddddd/000000",
-  "name": "Europäische Betriebswirtschafts-Akademie",
+  "name": "Europäische Betriebs-Akademie",
   "motto": "leverage enterprise eyeballs",
   "addr1": "669 Aberg Trail",
   "addr2": "Idaho",
@@ -90,7 +90,7 @@ const schools = [{
 }, {
   "id": 12,
   "imgSrc": "http://dummyimage.com/400x218.png/dddddd/000000",
-  "name": "University of Technology Phnom Penh",
+  "name": "University of Technology",
   "motto": "empower back-end web services",
   "addr1": "28927 Columbus Street",
   "addr2": "Missouri",

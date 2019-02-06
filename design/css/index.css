@@ -134,10 +134,14 @@ html {
 }
 h1 {
   font-size: 4rem;
+  font-family: 'Schoolbell', cursive;
 }
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
+}
+.card h2 {
+  font-family: 'Schoolbell', cursive;
 }
 h4 {
   font-size: 2.5rem;
@@ -245,5 +249,3 @@ body {
   color: #1A1409;
   background-color: #E5DABD;
 }
-/**/
-/**/
