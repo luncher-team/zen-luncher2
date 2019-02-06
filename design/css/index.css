@@ -227,6 +227,9 @@ body {
   box-shadow: 0 3px 5px 0 #1A1409;
   transition: 0.3s;
 }
+.card-box .card h3 {
+  color: #AE4110;
+}
 .card-box .card button {
   width: 85%;
   height: 3.5rem;

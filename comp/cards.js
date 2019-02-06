@@ -1,103 +1,147 @@
 /*Arroy of Schools*/
 const schools = [{
   "id": 1,
-  "name": "Harvard University",
-  "motto": "aggregate holistic initiatives",
-  "addr1": "9807 Johnson Drive",
-  "addr2": "Montpellier",
-  "donationsNeeded": "221.49.230.145"
+  "imgSrc": "http://dummyimage.com/400x220.bmp/5fa2dd/ffffff",
+  "name": "Harbin University of Civil Engineering & Architecture",
+  "motto": "drive seamless functionalities",
+  "addr1": "0 Superior Parkway",
+  "addr2": "New Jersey",
+  "donation": "$3785.60"
 }, {
   "id": 2,
-  "name": "Nortre Dame Seishin University",
-  "motto": "leverage back-end users",
-  "addr1": "56 Waxwing Center",
-  "addr2": "Vista Hermosa",
-  "donationsNeeded": "249.226.75.27"
+  "imgSrc": "http://dummyimage.com/400x242.jpg/dddddd/000000",
+  "name": "Olivet College",
+  "motto": "benchmark synergistic ROI",
+  "addr1": "629 Ridge Oak Alley",
+  "addr2": "Minnesota",
+  "donation": "$9136.73"
 }, {
   "id": 3,
-  "name": "Swinburne University of Technology",
-  "motto": "envisioneer front-end applications",
-  "addr1": "1245 Amoth Point",
-  "addr2": "Sertãozinho",
-  "donationsNeeded": "240.131.249.67"
+  "imgSrc": "http://dummyimage.com/400x232.png/cc0000/ffffff",
+  "name": "The Global College Lahore",
+  "motto": "facilitate sexy relationships",
+  "addr1": "6 Columbus Alley",
+  "addr2": "Missouri",
+  "donation": "$2676.07"
 }, {
   "id": 4,
-  "name": "Ohio University - Zanesville",
-  "motto": "envisioneer sexy systems",
-  "addr1": "992 Reindahl Circle",
-  "addr2": "Železná Ruda",
-  "donationsNeeded": "30.202.193.160"
+  "imgSrc": "http://dummyimage.com/400x206.png/ff4444/ffffff",
+  "name": "Chubu Gakuin University & Chubu Women's College",
+  "motto": "scale global users",
+  "addr1": "47 Fuller Road",
+  "addr2": "Ohio",
+  "donation": "$3144.68"
 }, {
   "id": 5,
-  "name": "National Taiwan College of Arts",
-  "motto": "reintermediate value-added relationships",
-  "addr1": "597 Katie Way",
-  "addr2": "Cisiih",
-  "donationsNeeded": "78.136.26.93"
+  "imgSrc": "http://dummyimage.com/400x214.jpg/cc0000/ffffff",
+  "name": "Universidad Católica de Santo Domingo",
+  "motto": "strategize transparent metrics",
+  "addr1": "5567 Bay Circle",
+  "addr2": "Oklahoma",
+  "donation": "$5381.37"
 }, {
   "id": 6,
-  "name": "Universidad Champagnat",
-  "motto": "benchmark strategic convergence",
-  "addr1": "52217 Mayer Alley",
-  "addr2": "Sīrīs",
-  "donationsNeeded": "106.85.17.193"
+  "imgSrc": "http://dummyimage.com/400x211.png/cc0000/ffffff",
+  "name": "St. Vincent College",
+  "motto": "integrate end-to-end networks",
+  "addr1": "0355 Erie Road",
+  "addr2": "North Carolina",
+  "donation": "$731.53"
 }, {
   "id": 7,
-  "name": "Escuela Politécnica Nacional",
-  "motto": "productize world-class systems",
-  "addr1": "3030 Independence Center",
-  "addr2": "Zekou",
-  "donationsNeeded": "46.199.65.216"
+  "imgSrc": "http://dummyimage.com/400x203.jpg/ff4444/ffffff",
+  "name": "Academy of Performing Arts, Film and TV Fakulty",
+  "motto": "optimize real-time platforms",
+  "addr1": "11 Lotheville Terrace",
+  "addr2": "Florida",
+  "donation": "$5962.55"
 }, {
   "id": 8,
-  "name": "Chongqing University of Technology",
-  "motto": "empower front-end metrics",
-  "addr1": "874 Michigan Lane",
-  "addr2": "Canillo",
-  "donationsNeeded": "126.26.252.110"
+  "imgSrc": "http://dummyimage.com/400x216.bmp/5fa2dd/ffffff",
+  "name": "Université de Saida",
+  "motto": "generate granular platforms",
+  "addr1": "34 Old Gate Avenue",
+  "addr2": "North Carolina",
+  "donation": "$9279.70"
 }, {
   "id": 9,
-  "name": "Instituto Politécnico de Castelo Branco",
-  "motto": "scale next-generation communities",
-  "addr1": "912 Rowland Place",
-  "addr2": "Ar Rujum",
-  "donationsNeeded": "7.168.83.161"
+  "imgSrc": "http://dummyimage.com/400x223.bmp/cc0000/ffffff",
+  "name": "First Global University to teaching Jainism",
+  "motto": "morph e-business paradigms",
+  "addr1": "9110 Pankratz Street",
+  "addr2": "Tennessee",
+  "donation": "$2714.26"
 }, {
   "id": 10,
-  "name": "Concordia College, St. Paul",
-  "motto": "expedite synergistic technologies",
-  "addr1": "7180 John Wall Drive",
-  "addr2": "Sade",
-  "donationsNeeded": "194.93.139.44"
+  "imgSrc": "http://dummyimage.com/400x230.bmp/dddddd/000000",
+  "name": "Pak-AIMS (American Institute of Management Sciences)",
+  "motto": "benchmark 24/365 ROI",
+  "addr1": "65 Northland Drive",
+  "addr2": "California",
+  "donation": "$959.12"
 }, {
   "id": 11,
-  "name": "Chongqing Telecommunication College",
-  "motto": "incentivize value-added partnerships",
-  "addr1": "89529 Tennessee Center",
-  "addr2": "Sohbatpur",
-  "donationsNeeded": "73.83.206.31"
+  "imgSrc": "http://dummyimage.com/400x214.png/dddddd/000000",
+  "name": "Europäische Betriebswirtschafts-Akademie",
+  "motto": "leverage enterprise eyeballs",
+  "addr1": "669 Aberg Trail",
+  "addr2": "Idaho",
+  "donation": "$6441.57"
 }, {
   "id": 12,
-  "name": "Osaka Sangyo University",
-  "motto": "synergize real-time solutions",
-  "addr1": "219 Transport Park",
-  "addr2": "Jieshipu",
-  "donationsNeeded": "19.40.81.66"
+  "imgSrc": "http://dummyimage.com/400x218.png/dddddd/000000",
+  "name": "University of Technology Phnom Penh",
+  "motto": "empower back-end web services",
+  "addr1": "28927 Columbus Street",
+  "addr2": "Missouri",
+  "donation": "$3852.65"
 }]
 
 /*Object*/
-Card {
-  constructor() {
-    this.card = document.getElementsByClassName('card')
+class Card {
+  constructor(school){
+    this.imgSrc = school.imgSrc
+    this.name = school.name;
+    this.motto = school.motto;
+    this.addr1 = school.addr1;
+    this.addr2 = school.addr2;
+    this.donation = school.donation;
+
+    this.root = document.querySelector(".card-box");
+
+    this.card = document.createElement('div');
+    this.card.classList.add('card');
+    this.root.appendChild(this.card);
+
+    this.img = document.createElement('img');//add image
+    this.card.appendChild(this.img);
+    this.img.src = this.imgSrc;
+
+    this.h2 = document.createElement('h2');//add school name
+    this.card.appendChild(this.h2);
+    this.h2.innerText = this.name;
+
+    this.mottoP = document.createElement('h3');//add motto
+    this.card.appendChild(this.mottoP);
+    this.mottoP.innerText = this.motto;
+
+    this.addrA = document.createElement('p');//add street addr
+    this.card.appendChild(this.addrA);
+    this.addrA.innerText = this.addr1;
+
+    this.addrB = document.createElement('p');//add state
+    this.card.appendChild(this.addrB);
+    this.addrB.innerText = this.addr2;
+
+    this.donationP = document.createElement('p');//add needed donations
+    this.card.appendChild(this.donationP);
+    this.donationP.innerText = this.donation;
+    this.donationP.classList.add('donation')
+
+    this.btn = document.createElement('button');//add donate button
+    this.card.appendChild(this.btn);
+    this.btn.innerText = "Donate Now!";
   }
-
 }
-/*Functions*/
 
-var cards = document.getElementsByClassName('card')
-
-zenCard = schools[i].forEach(
-
-)
-
-}
+schools.forEach((school, index) => new Card(schools[index]))
