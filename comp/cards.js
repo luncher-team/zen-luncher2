@@ -98,50 +98,53 @@ const schools = [{
 }]
 
 /*Object*/
+/*Create a card class*/
 class Card {
   constructor(school){
+    /*Constrct data from array*/
     this.imgSrc = school.imgSrc
     this.name = school.name;
     this.motto = school.motto;
     this.addr1 = school.addr1;
     this.addr2 = school.addr2;
     this.donation = school.donation;
-
+    /*Select div that holds cards*/
     this.root = document.querySelector(".card-box");
-
+    /*Create new card*/
     this.card = document.createElement('div');
     this.card.classList.add('card');
     this.root.appendChild(this.card);
-
-    this.img = document.createElement('img');//add image
+    /*Add img to card*/
+    this.img = document.createElement('img');
     this.card.appendChild(this.img);
     this.img.src = this.imgSrc;
-
-    this.h2 = document.createElement('h2');//add school name
+    /*Add school name to card*/
+    this.h2 = document.createElement('h2');
     this.card.appendChild(this.h2);
     this.h2.innerText = this.name;
-
-    this.mottoP = document.createElement('h3');//add motto
+    /*Add motto to card*/
+    this.mottoP = document.createElement('h3');
     this.card.appendChild(this.mottoP);
     this.mottoP.innerText = this.motto;
-
-    this.addrA = document.createElement('p');//add street addr
+    /*Add street address to card*/
+    this.addrA = document.createElement('p');
     this.card.appendChild(this.addrA);
     this.addrA.innerText = this.addr1;
-
-    this.addrB = document.createElement('p');//add state
+    /*Add state to card*/
+    this.addrB = document.createElement('p');
     this.card.appendChild(this.addrB);
     this.addrB.innerText = this.addr2;
-
-    this.donationP = document.createElement('p');//add needed donations
+    /*Add donations needed to card*/
+    this.donationP = document.createElement('p');
     this.card.appendChild(this.donationP);
     this.donationP.innerText = this.donation;
-    this.donationP.classList.add('donation')
-
-    this.btn = document.createElement('button');//add donate button
+    /*Add donate button to card*/
+    this.btn = document.createElement('button');
     this.card.appendChild(this.btn);
     this.btn.innerText = "Donate Now!";
   }
 }
 
+//Start Here
+/*Create a new card for each school*/
 schools.forEach((school, index) => new Card(schools[index]))
