@@ -139,6 +139,7 @@ h1 {
 h2 {
   font-size: 3.2rem;
   font-family: 'Schoolbell', cursive;
+  color: #1A1409;
 }
 h4 {
   font-size: 2.5rem;
@@ -226,6 +227,9 @@ body {
   margin: 20px 0 20px 0;
   padding: 1rem;
 }
+.head .head-txt h2 {
+  color: #E5DABD;
+}
 /*Card Component*/
 .card-box {
   display: flex;
@@ -256,6 +260,7 @@ body {
 }
 .card-box .card h3 {
   color: #AE4110;
+  margin: 1.5rem 0 1rem 0;
 }
 .card-box .card button {
   width: 85%;
@@ -269,6 +274,43 @@ body {
   cursor: pointer;
 }
 .card-box .card button:hover {
+  color: #1A1409;
+  background-color: #E5DABD;
+}
+/*Info Cards*/
+.i-card {
+  border: 1px solid #1A1409;
+  border-radius: 0 15px 0 15px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  text-align: center;
+  background: #81905A;
+  box-shadow: 0 9px 12px 0 #1A1409;
+  transition: 0.3s;
+  color: #E5DABD;
+  padding: 1rem;
+}
+.i-card h3 {
+  font-size: 1.7rem;
+}
+.i-card p {
+  font-weight: bold;
+  font-style: 2rem;
+}
+.i-card button {
+  width: 85%;
+  height: 3.5rem;
+  margin: 7%;
+  box-shadow: 0 3px 5px 0 #1A1409;
+  transition: 0.3s;
+  border-radius: 10px 0 10px 0;
+  color: #E5DABD;
+  background-color: #1A1409;
+  cursor: pointer;
+}
+.i-card button:hover {
   color: #1A1409;
   background-color: #E5DABD;
 }
