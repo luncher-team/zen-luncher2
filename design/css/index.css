@@ -160,6 +160,7 @@ img {
 /*Background*/
 body {
   background-color: #E5DABD;
+  justify-content: center;
 }
 /*Navigation Conainer*/
 .nav {
@@ -203,6 +204,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .card-box .card {
   border: 1px solid #1A1409;
