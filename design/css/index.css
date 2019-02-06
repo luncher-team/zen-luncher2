@@ -138,9 +138,6 @@ h1 {
 }
 h2 {
   font-size: 3.2rem;
-  padding-bottom: 10px;
-}
-.card h2 {
   font-family: 'Schoolbell', cursive;
 }
 h4 {
@@ -184,13 +181,15 @@ body {
   text-shadow: 4px 4px #1A1409;
 }
 .nav .btns {
-  margin: 1rem;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .nav .btns button {
-  margin: 1rem;
+  margin: 1rem 0.3rem 1rem 0.3rem;
   font-size: 1.5rem;
-  padding: 0.7rem;
-  width: 10rem;
+  padding: 0.13rem 0.5rem;
   box-shadow: 0 3px 5px 0 #1A1409;
   transition: 0.3s;
   border-radius: 10px 0 10px 0;
@@ -202,6 +201,30 @@ body {
   text-decoration: line-through;
   color: #1A1409;
   background-color: #E5DABD;
+}
+/*Header Styles*/
+.head {
+  background: #763C22;
+  border-radius: 0 15px 0 15px;
+  box-shadow: 0 9px 15px 0 #763C22;
+  transition: 0.3s;
+  color: #E5DABD;
+  padding: 2rem;
+  border: 1px solid #1A1409;
+  margin-bottom: 3rem;
+  margin: 0 7% 3rem 7%;
+  width: 85%;
+}
+.head img {
+  border-radius: 10px 3px 10px 3px;
+  box-shadow: 0 9px 15px 0 #763C22;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+.head .head-txt {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  padding: 1rem;
 }
 /*Card Component*/
 .card-box {
@@ -219,7 +242,7 @@ body {
   max-width: 23rem;
   text-align: center;
   background: #81905A;
-  box-shadow: 0 6px 10px 0 #1A1409;
+  box-shadow: 0 9px 12px 0 #1A1409;
   transition: 0.3s;
   color: #E5DABD;
 }

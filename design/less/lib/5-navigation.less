@@ -22,19 +22,22 @@ body {
   }
 
   .btns {
-    margin: 1rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 
     button {
-      margin: 1rem;
+      margin: 1rem 0.3rem 1rem 0.3rem;
       font-size: 1.5rem;
-      padding: 0.7rem;
-      width: 10.0rem;
+      padding: 0.13rem 0.5rem;
       box-shadow: 0 3px 5px 0 @c-bord;
       transition: 0.3s;
       border-radius: 10px 0 10px 0;
       color: @c-txt;
       background-color: @c-bord;
       cursor: pointer;
+
 
       &:hover {
         text-decoration: line-through;
@@ -43,6 +46,34 @@ body {
       }
 
     }
+  }
+}
+
+/*Header Styles*/
+.head {
+  background: @h-back;
+  border-radius: 0 15px 0 15px;
+  box-shadow: 0 9px 15px 0 @t2;
+  transition: 0.3s;
+  color: @h-txt;
+  padding: 2rem;
+  border: 1px solid @c-bord;
+  margin-bottom: 3.0rem;
+  margin: 0 7% 3.0rem 7%;
+  width: 85%;
+
+  img {
+    border-radius: 10px 3px 10px 3px;
+    box-shadow: 0 9px 15px 0 @t2;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+
+  .head-txt {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 1rem;
+
   }
 }
 
@@ -62,7 +93,7 @@ body {
     max-width: 23.0rem;
     text-align: center;
     background: @c-back;
-    box-shadow: 0 6px 10px 0 @c-bord;
+    box-shadow: 0 9px 12px 0 @c-bord;
     transition: 0.3s;
     color: @c-txt;
     img {
