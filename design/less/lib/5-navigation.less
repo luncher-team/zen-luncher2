@@ -192,6 +192,66 @@ body {
   }
 }
 
+/*Sign in Card*/
+.sign-card-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 8rem auto;
+  .sign-card {
+    border: 1px solid @c-bord;
+    border-radius: 0 15px 0 15px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 30.0rem;
+    text-align: center;
+    background: @c-back;
+    box-shadow: 0 9px 12px 0 @c-bord;
+    transition: 0.3s;
+    color: @c-txt;
+    padding: 1rem;
+
+    .input {
+      border-radius: 5px;
+      margin: 1rem;
+      height: 2.5rem;
+      font-size: 2rem;
+      text-align: center;
+      box-shadow: 0 3px 5px 0 @c-bord;
+      transition: 0.3s;
+      color: @c-bord;
+      background-color: @c-txt;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+
+      a {
+        text-decoration: none;
+        color: @t1;
+      }
+    }
+
+    .button {
+      width: 85%;
+      height: 3.5rem;
+      margin: 1rem;
+      box-shadow: 0 3px 5px 0 @c-bord;
+      transition: 0.3s;
+      border-radius: 10px 0 10px 0;
+      color: @c-txt;
+      background-color: @c-bord;
+      cursor: pointer;
+
+      &:hover {
+        color: @c-bord;
+        background-color: @c-txt;
+      }
+    }
+  }
+}
+
 /*Footer*/
 footer {
   display: flex;
