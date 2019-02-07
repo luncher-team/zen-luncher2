@@ -361,13 +361,8 @@ body {
   color: #1A1409;
   background-color: #E5DABD;
 }
-.sign-card-box .sign-card h3 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-.sign-card-box .sign-card h3 a {
-  text-decoration: none;
-  color: #AE4110;
+.sign-card-box .sign-card .radio {
+  width: 80%;
 }
 .sign-card-box .sign-card .button {
   width: 85%;
