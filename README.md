@@ -5,7 +5,7 @@ zen-luncher2
   `git clone https://github.com/luncher-team/zen-luncher2.git`
 
   - On the web.
-  head over to [1](https://github.com/luncher-team/zen-luncher2.git)
+  head [HERE](https://github.com/luncher-team/zen-luncher2.git)
 
 
 Tips on Installing The Luncher UI
